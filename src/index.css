@@ -1,0 +1,13 @@
+#root {
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.cursor {
+  cursor: pointer;
+}

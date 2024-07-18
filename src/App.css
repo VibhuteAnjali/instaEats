@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+  background-color: black;
+  margin: 0 0;
+  padding: 0;
+}
+.main-body {
+  display: flex;
+}
+.w-80 {
+  width: 80%;
+}

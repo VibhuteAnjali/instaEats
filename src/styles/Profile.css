@@ -1,0 +1,80 @@
+.profileInfo {
+  display: flex;
+  color: white;
+  justify-content: center;
+  gap: 8em;
+  align-items: center;
+  width: 87vw;
+  padding: 2em;
+  border-bottom: 1px solid #80808038;
+}
+.profile {
+  padding: 3em 0em;
+}
+.profileimg img {
+  width: 20em;
+  height: 20em;
+  border-radius: 140%;
+}
+.flex-profile {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+}
+.profilesetting {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.blackBtn {
+  background: black;
+  color: white;
+  font-size: 18px;
+  padding: 1em 1.1em;
+  border: none;
+  border-radius: 0.5em;
+  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.blackBtn:hover {
+  color: white;
+  transform: scale(110%);
+}
+.highlight {
+  font-size: 1.2em;
+}
+.profileAbout p {
+  font-size: 19px;
+  margin-bottom: -4px;
+}
+.profile-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.Tooltip2 {
+  position: relative;
+}
+.Tooltip2:hover:before {
+  display: block;
+}
+.Tooltip2:before {
+  content: attr(data-text);
+  font-size: 18px;
+  position: absolute;
+  top: 184%;
+  transform: translateY(-50%);
+  margin-left: 15px;
+  right: -11em;
+  width: 22em;
+  padding: 8px;
+  border-radius: 9px 9px 9px 0px;
+  background: #00000094;
+  color: #fff;
+  text-align: center;
+  display: none;
+}

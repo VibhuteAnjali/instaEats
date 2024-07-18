@@ -1,0 +1,14 @@
+.cl-internal-phfxlr {
+  transform: scale(130%);
+  width: auto;
+  height: 100vh;
+  font-family: inherit;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cl-internal-10liqrf[data-variant="solid"]::after {
+  background-color: black;
+  border-color: white !important;
+}

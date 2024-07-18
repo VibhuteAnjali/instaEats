@@ -1,0 +1,79 @@
+.profilepic img {
+  width: 16em;
+  height: 16em;
+  border-radius: 140%;
+}
+.EditprofileInfo {
+  padding: 3em;
+}
+.profilepic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  gap: 11em;
+}
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 89vw;
+  margin-top: 3em;
+  align-items: center;
+}
+.editInput {
+  width: 50em;
+  font-size: 17px;
+  color: white;
+  padding: 2em 2em;
+  border-radius: 0.5em;
+  border: none;
+  background: #212125;
+  border-bottom: 1px solid #ffffff45;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.box label {
+  font-size: 1.4em;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Upload File";
+  display: inline-block;
+  background: black;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user: none;
+  cursor: pointer;
+  font-size: 10pt;
+  background: black;
+  color: white;
+  font-size: 18px;
+  padding: 0.7em 1em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  text-align: center;
+  width: 7em;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+  border: 1px solid white;
+  transform: scale(110%);
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #434343, #000000);
+}
+.buttons {
+  display: flex;
+  gap: 3em;
+}

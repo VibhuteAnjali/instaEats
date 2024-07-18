@@ -1,0 +1,39 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding: 1em;
+  width: 8vw;
+  background-color: black;
+  align-items: center;
+  border-right: 2px solid #ffffff0a;
+}
+.Tooltip {
+  position: relative; /* making the .Tooltip span a container for the Tooltip text */
+}
+.Tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position: absolute;
+
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* move to right */
+  left: 100%;
+  margin-left: 15px; /* and add a small left margin */
+
+  /* basic styles */
+  width: 5em;
+  padding: 8px;
+  border-radius: 9px 9px 9px 0px;
+  background: #00000094;
+  color: #fff;
+  text-align: center;
+
+  display: none; /* hide by default */
+}
+.Tooltip:hover:before {
+  display: block;
+}

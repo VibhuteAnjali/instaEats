@@ -1,0 +1,17 @@
+.no-content {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.no-content img {
+  width: 100vw;
+  height: 32em;
+}
+.no-content p {
+  font-size: 23px;
+}

@@ -1,0 +1,176 @@
+.heading {
+  color: white;
+  font-size: 22px;
+  display: flex;
+  gap: 14em;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+/* .posts {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 3em;
+}
+.post {
+  text-align: center;
+  color: white;
+  background: #00000070;
+  padding: 2em;
+  border-radius: 1em;
+} */
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.post {
+  background-color: #000000; /* Background color for each post */
+  border: 1px solid #ffffff18; /* Border for each post */
+  border-radius: 9px; /* Rounded corners for each post */
+  padding: 10px; /* Add padding if needed */
+  box-sizing: border-box;
+  width: min-content;
+  padding: 2em;
+  color: white;
+}
+
+.posts .Postimg {
+  width: 39em;
+  height: 25em;
+}
+.likes {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-around;
+}
+.flexPost {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+.underline {
+  padding: 1px;
+  text-align: center;
+  width: 4em;
+  border-bottom: 1px solid white;
+  transition-duration: 300ms;
+}
+.tab {
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition: all;
+}
+.flexColumn-posts {
+  display: flex;
+}
+.flexColumn-posts p {
+  margin: 1em;
+  margin-left: 0em;
+}
+.map {
+  display: flex;
+  align-items: center;
+}
+.border {
+  border-right: 1px solid white;
+  padding-right: 1em;
+  /* padding: 1em; */
+}
+.postPP {
+  width: 4em;
+  height: 4em;
+  border-radius: 6em;
+}
+.flex-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+.flex-post p {
+  font-size: 1.2em;
+}
+.postInfo {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+.postInfo p {
+  margin-bottom: 0em;
+  margin-top: 0em;
+  font-size: 19px;
+}
+.flex-post-l {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  font-size: 1.1em;
+  position: absolute;
+}
+.flex-post-l img {
+  cursor: pointer;
+  position: relative;
+  left: 32em;
+  bottom: 22em;
+}
+.g-1 {
+  gap: 1em;
+}
+.g-0 {
+  gap: 0.5em;
+}
+.w-12 {
+  width: 12em;
+}
+.flex-menuBox {
+  display: flex;
+  gap: 0.5em;
+}
+.flex-menuBox .menu {
+  cursor: pointer;
+  position: relative;
+}
+.menuBtn {
+  position: absolute;
+  right: 1em;
+}
+.deleteBtn {
+  padding: 1em 1em;
+  width: 8em;
+  border-radius: 1em;
+  background: #000000;
+  color: white;
+  border: none;
+  border: 1px solid #ffffff38;
+  cursor: pointer;
+}
+.noPost {
+  color: white;
+  text-align: center;
+}
+.white {
+  font-size: 21px;
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+.profileInfo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.saveSvg {
+  cursor: pointer;
+}
+.savedPost {
+  padding: 2em;
+}

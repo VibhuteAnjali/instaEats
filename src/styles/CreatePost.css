@@ -1,0 +1,26 @@
+.create-post {
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.createPostForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  color: white;
+}
+.input-cp {
+  width: 38em;
+  height: 6em;
+  padding: 1em;
+  background: black;
+  border: 1px solid #ffffff2e;
+  border-radius: 1em;
+  color: white;
+}
+.flex-cp {
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
+}
